@@ -33,7 +33,6 @@ class PyTable:
         self._headers = headers
         self.row_length = len(headers)
         
-        print(self)
         return self
 
     def row(self, row: list[str]) -> Self:
