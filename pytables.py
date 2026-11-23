@@ -71,7 +71,7 @@ class PyTable:
             total_extra_space = ((PADDING + BORDER_WIDTH) * self.row_length) + 1
             title_extra = PADDING + (BORDER_WIDTH * 2)
         else:
-            total_extra_space = (PADDING * self.rows_length)
+            total_extra_space = (PADDING * self.row_length)
             title_extra = PADDING
 
 
